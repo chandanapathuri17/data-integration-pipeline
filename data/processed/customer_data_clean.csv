@@ -1,8 +1,8 @@
 customer_id,first_name,last_name,email,signup_date,status,full_name
-1001.0,Chandana,Pathuri,chandana@example.com,2026-01-15,active,Chandana Pathuri
-1002.0,John,Smith,john.smith@example.com,2026-02-03,active,John Smith
-1004.0,Daniel,Lee,daniel.lee@example.com,2026-03-05,active,Daniel Lee
-1005.0,Sophia,Garcia,sophia.garcia@example.com,2026-03-21,active,Sophia Garcia
-1003.0,Maya,Patel,maya.patel@example.com,2026-02-18,inactive,Maya Patel
-1006.0,Emma,Wilson,emma.wilson@example.com,,active,Emma Wilson
-1007.0,Alex,Johnson,alex.johnson@example.com,2026-04-12,active,Alex Johnson
+1001,Chandana,Pathuri,chandana@example.com,2026-01-15,active,Chandana Pathuri
+1002,John,Smith,john.smith@example.com,2026-02-03,active,John Smith
+1004,Daniel,Lee,daniel.lee@example.com,2026-03-05,active,Daniel Lee
+1005,Sophia,Garcia,sophia.garcia@example.com,2026-03-21,active,Sophia Garcia
+1003,Maya,Patel,maya.patel@example.com,2026-02-18,inactive,Maya Patel
+1006,Emma,Wilson,emma.wilson@example.com,,active,Emma Wilson
+1007,Alex,Johnson,alex.johnson@example.com,2026-04-12,active,Alex Johnson
