@@ -91,6 +91,9 @@ def transform_data(df):
     # Remove records without a customer ID
     df = df.dropna(subset=["customer_id"])
 
+    # Convert customer IDs to integers after removing missing values
+    df["customer_id"] = df["customer_id"].astype(int)
+
     # Standardize text fields
     df["first_name"] = (
         df["first_name"]
