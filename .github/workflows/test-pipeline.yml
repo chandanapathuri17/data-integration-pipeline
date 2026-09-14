@@ -1,0 +1,29 @@
+name: Test Data Pipeline
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ETL pipeline
+        run: python pipeline.py
+
+      - name: Verify processed dataset
+        run: |
+          test -f data/processed/customer_data_clean.csv
+          echo "Pipeline completed and processed dataset was created successfully."
