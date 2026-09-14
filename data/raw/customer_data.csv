@@ -1,0 +1,10 @@
+customer_id,first_name,last_name,email,signup_date,status
+1001,Chandana,Pathuri,CHANDANA@example.com,2026-01-15,Active
+1002,John,Smith,john.smith@example.com,2026-02-03,Active
+1003,Maya,Patel,MAYA.PATEL@example.com,2026-02-18,Inactive
+1004,Daniel,Lee,daniel.lee@example.com,2026-03-05,Active
+1005,Sophia,Garcia,sophia.garcia@example.com,2026-03-21,Active
+1003,Maya,Patel,maya.patel@example.com,2026-02-18,Inactive
+1006,Emma,Wilson,emma.wilson@example.com,invalid-date,Active
+,No,Identifier,no.id@example.com,2026-04-01,Active
+1007,  alex  ,johnson,ALEX.JOHNSON@example.com,2026-04-12,Active
